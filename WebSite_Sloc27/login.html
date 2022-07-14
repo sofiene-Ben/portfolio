@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style-login.css"/>
+    <title>Connexion</title>
+</head>
+<body>
+    
+    <div class="contener">
+        <h1 class="label">Identifiant</h1> 
+        <form class="login_form" action="acceuil.html" method="post" name="form" onsubmit="return validated()">
+            <div class="font">Email ou Numero</div>
+            <input autocomplet="off" type="texte" name="email">
+            <div id="email_error">veuillez entrer votre adresse E-mail ou Numero</div>
+            <div class="font font2">Mot de passe</div>
+            <input type="password" name="password">
+            <div id="pass_error">veuillez entrer votre mot de passe</div>
+            <div class="signin"><a href="signin.html">pas encore de compte ? inscrivez-vous</a></div>
+            <button type="submite">Connexion</button>
+
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html> 

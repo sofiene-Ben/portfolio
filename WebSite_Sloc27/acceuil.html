@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>SLOC 27</title>
+    <link rel="stylesheet" type="text/css" href="style2.css"/>
+	<link rel="stylesheet" media="screen and (max-width: 900px)" href="style_petit_3.css" />
+	<link rel="stylesheet" media="screen and (max-width: 745px)" href="style_petite_resolution.css" /> <!-- Pour ceux qui ont une résolution inférieure à 1280px -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Luckiest+Guy" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  </head>
+
+
+
+
+  <body>
+  	
+
+<div>
+  	<header id="header">
+		
+  		<nav class="top-bar">
+
+
+  			<div class="logo_image1">
+
+				<p class="logocomplet">
+
+
+					<img src="images/rectangle_bleu2.png" alt="logo" class="logo1">
+					<span class="entreprise">SLOC27</span><br> <span class="soustitre1">Location de véhicule</span> </p>
+				</div>
+
+			<div class="contenair2">
+  			<div class="box">
+  				<i class="fas fa-search" aria-hidden="true"></i> 
+  				<input class="input" id="searchinput" type="texte" name="texte" placeholder="trouvez la voiture de vos rêves" onchange="openPage()">
+			</div>	
+				  
+
+			<div id="suggestion"></div>
+
+			</div>
+  			<!--
+  			<div class="boxContainer"> 
+  				<table class="elementsContainer">
+  					<tr>
+  						<td>
+  							<input type="texte"   class="search">
+  						</td>
+  						<td>
+  							<a class="search_btn" href="#">
+  								<i class="fas fa-search" aria-hidden="true"></i> 
+							</a>
+  						</td>
+  					</tr>
+  				</table>
+  			</div>  -->
+  			<!-- <div class="box">
+  				<i class="fas fa-search" aria-hidden="true"></i> 
+  				<input type="texte" name="texte">
+  			</div> -->
+  			<div class="num_et_logo"> 
+
+  				<div class="div_logo_phone">  
+
+					
+					<div class="loupe"> <i class="fas fa-search" aria-hidden="true"></i> </div>
+  					<img src="images/logo_telephone.png" alt="phone" class="phone"> 
+
+  				</div>
+
+
+  				<span class="num"><a href="tel:+33767659395" class="num-tel">Téléphone   +33 7 67 65 93 95 </a></span>
+
+  			</div>
+			  
+
+  		</nav>
+		  
+		
+  	</header>
+	  
+</div>
+  	<section>
+  		<div class="espace_promo">
+			<img src="images/audiA3B.png" alt="rs3" class="photo_promo">
+			<img src="images/ban_a1.png" alt="ban_a1" class="a1-petit">
+  			  <!-- <p class="texte_promo"> ESPACE RÉSÉRVER AUX PROMO</p>  -->
+  		</div>
+
+  		<div class="espace_produit">
+  			<div class="offer-list">
+  				<div class="voiture">
+
+
+  				
+
+					
+		  			<div class="voiture-1">
+						<a href="clio_5.html">
+
+							<img src="images/clio_5.png" alt="fond_produit" class="fond_produit">
+
+							<div class="offer-details">
+								<div class="car-name">
+									<span class="brand-name">RENAULT</span> <br>
+									<span class="model-name">Clio 5</span>
+									<span class="version-name">rs line</span>
+								</div>
+
+								<div class="price">
+									<div class="actuel-price">
+										<div class="price-value">1 400</div>
+										<div class="price-currency">€ - mois</div>
+									</div>
+								</div>
+
+							</div>
+						</a>
+	  				</div>
+
+
+
+
+
+
+
+
+	  				<div class="voiture-2">
+
+		  				<img src="images/audia3.png" alt="fond_produit" class="fond_produit">
+
+		  				<div class="offer-details">
+			  				<div class="car-name">
+			  					<span class="brand-name">AUDI</span> <br>
+			  					<span class="model-name">A3</span>
+			  					<span class="version-name">Sline</span>
+			  				</div>
+
+			  				<div class="price">
+			  					<div class="actuel-price">
+			  						<div class="price-value">1 600</div>
+			  						<div class="price-currency">€ - mois</div>
+			  					</div>
+			  				</div>
+
+						</div>
+
+					</div>
+
+					<div class="voiture-3">
+
+		  				<img src="images/clio4.png" alt="fond_produit" class="fond_produit">
+
+		  				<div class="offer-details">
+			  				<div class="car-name">
+			  					<span class="brand-name">RENAULT</span> <br>
+			  					<span class="model-name">Clio 4</span>
+			  					<span class="version-name">tech</span>
+			  				</div>
+
+			  				<div class="price">
+			  					<div class="actuel-price">
+			  						<div class="price-value">800</div>
+			  						<div class="price-currency">€ - mois</div>
+			  					</div>
+			  				</div>
+
+						</div>
+
+					</div>
+
+
+
+
+
+
+
+  				</div>
+
+  				<div class="voiture">
+
+
+  				
+
+
+		  			<div class="voiture-4">
+
+		  				<img src="images/classa.png" alt="fond_produit" class="fond_produit">
+
+		  				<div class="offer-details">
+			  				<div class="car-name">
+			  					<span class="brand-name">MERCEDES</span> <br>
+			  					<span class="model-name">Class A</span>
+			  					<span class="version-name">AMG line</span>
+			  				</div>
+
+			  				<div class="price">
+			  					<div class="actuel-price">
+			  						<div class="price-value">1 600</div>
+			  						<div class="price-currency">€ - mois</div>
+			  					</div>
+			  				</div>
+
+						</div>
+
+	  				</div>
+
+
+
+
+
+
+
+
+	  				<div class="voiture-5">
+
+		  				<img src="images/bms1.png" alt="fond_produit" class="fond_produit">
+
+		  				<div class="offer-details">
+			  				<div class="car-name">
+			  					<span class="brand-name">BMW</span> <br>
+			  					<span class="model-name">Serie 1</span>
+			  					<span class="version-name">Pack M</span>
+			  				</div>
+
+			  				<div class="price">
+			  					<div class="actuel-price">
+			  						<div class="price-value">1 600</div>
+			  						<div class="price-currency">€ - mois</div>
+			  					</div>
+			  				</div>
+
+						</div>
+
+					</div>
+
+					<div class="voiture-6">
+
+		  				<img src="images/peugeot_308.png" alt="fond_produit" class="fond_produit">
+
+		  				<div class="offer-details">
+			  				<div class="car-name">
+			  					<span class="brand-name">PEUGEOT</span> <br>
+			  					<span class="model-name">308</span>
+			  					<span class="version-name">GT Line</span>
+			  				</div>
+
+			  				<div class="price">
+			  					<div class="actuel-price">
+			  						<div class="price-value">1400</div>
+			  						<div class="price-currency">€ - mois</div>
+			  					</div>
+			  				</div>
+
+						</div>
+
+					</div>
+
+
+
+
+
+
+
+  				</div>
+
+
+
+
+
+
+
+
+
+
+
+  			</div>
+  			
+		</div>	
+
+
+  	</section >
+
+  	<section class="apropo">
+
+  		<div class="nous">
+  			<span class="title-nous">QUI SOMMES NOUS ?</span>
+		</div>	
+  			
+  		<div class="description">
+  			<p >SLOC27 est une société spécialisée dans le domaine automobile et plus précisément, <br>
+dans la location de voitures.<br>
+Notre équipe dotée d’une grande expérience dans ce secteur, <br>
+met tout son savoir-faire à disposition de notre clientèle afin d’assurer <br>
+une qualité de service irréprochable.<br>
+Nous louons des véhicules en France et au luxembourg en longue durée, à des proffessionels, <br>
+mais aussi des particuliers. <br>
+Nous proposons des forfaits de location pour 24 mois, <br>
+36 mois, 48 mois ou encore 60 mois en foncton de votre choix.
+
+  		</div>
+  		<div class="social-network">
+  			<p>VOUS POUVEZ DÉSORMAIS NOUS SUIVRE <br>
+SUR LES RÉSAUX SOCIAUX</p>
+  		</div>
+  		<div class="resau">
+	  		<div class="fb-network">
+	  			<img src="images/fb_icon.png" alt="fb-icon" class="fb-icon">
+	  			<span class="sloc27-fb">SLOC27</span>
+	  		</div>
+
+	  		<div class="insta-network">
+	  			<img src="images/insta_icon.png" alt="insta-icon" class="insta-icon">
+	  			<span class="sloc27-insta">SLOC27</span>
+	  		</div>
+
+	  		<div class="twitter-network">
+	  			<img src="images/twitter_icon.png" alt="twitter-icon" class="twitter-icon">
+	  			<span class="sloc27-twitter">SLOC27</span>
+	  		</div>
+
+	  	</div>
+
+  	</section>
+
+  	<footer>
+
+  		<div class="div-contact">
+  			<span class="contact-txt">CONTACT</span>
+  		</div>
+  		
+  		<div class="footer">
+  			<div class="form-contact">
+	  			<form action="#" class="contact-form">
+
+	  				<div class="fomr-nom">
+		  				<label form="nom"> 
+							<input class="nom " type="texte" name="nom" placeholder="votre nom*">
+						</label>
+					</div>
+					<!-- <br> -->
+
+
+					<div class="form-mail">
+						<label form="e-mail"> 
+							<input class="e-mail " type="texte" name="e-mail" placeholder="votre e-mail*">
+						</label>
+					</div>
+					<!-- <br> -->
+
+
+					<div class="form-message">
+						<label for="message">
+							<textarea class="message" name="message" cols="50" rows="10" placeholder="votre message*"></textarea>
+						</label>
+					</div>
+
+					<div class="button">
+						<button type="submit">Envoyer</button>
+					</div>
+
+
+
+
+	  			</form>
+	  		</div>
+  		</div>
+
+
+  	</footer>
+
+
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

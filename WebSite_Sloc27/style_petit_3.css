@@ -1,0 +1,19 @@
+@media screen and (max-width: 900px){
+    .box{
+        width: 300px;
+    }
+
+    #suggestion{
+
+        width: 300px;
+    }
+
+    .photo_promo{
+        display: none;
+    }
+
+    .a1-petit{
+        display: flex;
+        width: 100%;
+    }
+}

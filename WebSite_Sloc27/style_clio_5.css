@@ -1,0 +1,428 @@
+#header
+{
+	background: black; 
+	position: -webkit-sticky;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	transition: 0.4s;
+	height: 60px;
+}
+
+/*---------------------------------------
+---------------  Rectangle bleu ----------
+---------------------------------------
+*/
+
+
+.logo1{
+	width: 80px;
+	height: 20px;
+
+}
+
+/*---------------------------------------
+---------------------------------------
+---------------------------------------
+*/
+
+
+div{
+	display: block;
+	color: white;
+}
+
+
+/* ------------
+----------------
+ bordure du header
+ -----------------
+  ----------- */
+
+.top-bar{
+	display: flex;
+	align-items: center;
+	max-width: 1190px;
+	margin: 0px auto;
+	justify-content: space-between;
+}
+
+/*-------------------------------------- 
+--------------------------------------
+-----------------------------*/
+
+
+/* ----------------------------
+-------------------------------
+Police d'ecriture logo sloc
+--------------------------------
+-----------------------------*/
+
+.entreprise{
+	
+	font-family: Luckiest Guy;
+	font-size: 25px;
+	color:white;
+}
+
+.soustitre1{
+	color:white;
+	font-family: arial;
+	font-size: 7px;
+	display: flex;
+	margin-left: 84px;
+	/*position: relative;
+	left: 52%;*/
+
+}
+
+/*---------------------------------------
+---------------------------------------
+---------------------------------------
+*/
+
+
+
+/*-------------------------------
+-------- Position rectangle bleu + sloc27 ---
+-----------------------------*/
+
+
+.logocomplet{
+	line-height: 50%;
+	/*clear: left;
+	position: relative;
+	left: 0%; */
+
+
+}
+
+/*---------------------------------------
+---------------------------------------
+---------------------------------------
+*/
+
+
+/*---------------------------------------
+--------- Search barre ------------------
+-----------------------------------------
+
+----------*/
+
+.boxContainer
+{
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 3px;
+	position: relative;
+	width: 300px;
+	height: 42px;
+	border: 4px solid #fff;
+	padding: 0px 10px ;
+	border-radius: 50px;
+}
+
+.elementsContainer 
+{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.search
+{
+	border: none;
+	height: 100%;
+	width: 100%;
+	padding: 0px 5px;
+	border-radius: 50px;
+	font-size: 18px;
+	font-family: "Nunito";
+	color: #787777;
+	font-weight: 500;
+}
+
+.search:focus
+{
+	outline: none;
+}
+.search_btn
+{
+	color: black;
+	float:right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+}
+.fasfa-search
+{
+	font-size: 26;
+	color: #2980b9;
+}
+
+
+
+
+.box
+{
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 3px;
+	position: relative;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.box 
+{
+
+	position: relative;
+	font-family: sans-serif;
+	box-sizing: border-box;
+
+	/* width: 500px; */
+	width: 500px; 
+	height: 30px;
+	background-color: white;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+
+	
+
+}
+
+.box > i {
+	font-size: 20px;
+	color: #787777;
+}
+
+.box > input {
+	flex: 1;
+	height: 30px;
+	border: none;
+	outline: none;
+	font-size: 15px; 
+	padding-left: 10px; 
+}
+
+#suggestion {
+	background-color: white;
+	border-radius: 6px;
+	margin-top: 5px;
+	width: 500px;
+	/* margin-left: 553px; */
+	position: absolute;
+
+}
+
+.suggestion {
+	margin-right: 19px;
+	padding-left: 29px;
+	border-radius: 30px;
+	margin-left: 16px;
+	color: black;
+	margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.suggestion:hover {
+	background: rgba(105, 103, 103, 0.6);
+}
+
+/*--------------------------------------
+----------SEARCH BAR END ---------------
+--------------------------------------*/
+
+
+
+
+
+/*---------------------------------------
+----------- Logo Téléphone --------------
+---------------------------------------
+*/
+
+.phone{
+
+	width: 35px;
+	height: 35px;
+	
+}
+
+/* ----------------------------------------
+----------- police num Téléphone ----------
+---------------------------------------- */
+
+.num{
+	font-family: Arial,bold;
+	font-size: 12px;
+	/*position: relative;
+	bottom: 12px;
+	left: 5px;
+*/
+
+}	
+
+.num_et_logo{
+
+	display: flex;
+	align-items: center;
+}
+
+.div_logo_phone{
+	margin-right: 9px; 
+}
+
+.loupe
+{
+	display: none;
+}
+
+/*---------------------------------------
+---------------------------------------
+---------------------------------------
+*/
+
+body{
+    background: black;
+}
+
+.trunk
+{
+    margin-top: 6%;
+    width: 1000px;
+    margin: 0 auto;
+    /* height: 2000px;
+    background: white;
+    border-radius: 20px; */
+}
+
+.region-content
+{
+    display: block;
+	margin-top: 100px;
+}
+
+.box2
+{
+    border-radius: 15px;
+
+}
+
+.box1
+{
+    background-color: black;
+    margin-bottom: 30px;
+	box-shadow: 0 0 10rem 0 hsl(0deg 0% 100% / 15%);
+}
+
+.box1, .inner
+{
+    padding: 20px;
+}
+
+.article
+{
+    display: block;
+}
+
+.grid
+{
+    zoom: 1;
+}
+
+.grid, .col
+{
+    margin-left: 0;
+}
+
+.c610
+{
+    width: 610px;
+}
+
+.col
+{
+    float: left;
+    margin-left: 3%;
+}
+
+.strapline
+{
+    font: normal 14px/1 HelveticaNeueBC,serif;
+    margin-bottom: 10px;
+    color: #858585;
+}
+
+.maintitle
+{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font: normal 32px/1 HelveticaNeueBC,serif;
+    letter-spacing: -1px;
+}
+
+h1, h2, h3, h4, h5, p
+{
+    margin: 0;
+    font-size: 100%;
+}
+
+h1
+{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2
+{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.clio5-png
+{
+    width: 570px;
+}
+
+.section-1
+{
+    display: flex;
+}
+
+.resa
+{
+    width: 320px;
+    /* background-color: white; */
+    float: left;
+    margin-left: 3%;
+}
+
+.resa-1
+{
+    margin-bottom: 30px;
+}
+
+.tarif
+{
+    color: white;
+    
+}

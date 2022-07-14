@@ -1,0 +1,697 @@
+
+body{
+	margin: 0;
+	background-color: #000;
+}
+
+#header
+{
+	background: none; 
+	position: -webkit-sticky;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	transition: 0.4s;
+}
+
+/*---------------------------------------
+---------------  Rectangle bleu ----------
+---------------------------------------
+*/
+
+
+.logo1{
+	width: 80px;
+	height: 20px;
+
+}
+
+/*---------------------------------------
+---------------------------------------
+---------------------------------------
+*/
+
+
+div{
+	display: block;
+	color: white;
+}
+
+
+/* ------------
+----------------
+ bordure du header
+ -----------------
+  ----------- */
+
+.top-bar{
+	display: flex;
+	align-items: center;
+	max-width: 1190px;
+	margin: 0px auto;
+	justify-content: space-between;
+}
+
+/*-------------------------------------- 
+--------------------------------------
+-----------------------------*/
+
+
+/* ----------------------------
+-------------------------------
+Police d'ecriture logo sloc
+--------------------------------
+-----------------------------*/
+
+.entreprise{
+	
+	font-family: Luckiest Guy;
+	font-size: 25px;
+	color:white;
+}
+
+.soustitre1{
+	color:white;
+	font-family: arial;
+	font-size: 7px;
+	display: flex;
+	margin-left: 84px;
+	/*position: relative;
+	left: 52%;*/
+
+}
+
+/*---------------------------------------
+---------------------------------------
+---------------------------------------
+*/
+
+
+
+/*-------------------------------
+-------- Position rectangle bleu + sloc27 ---
+-----------------------------*/
+
+
+.logocomplet{
+	line-height: 50%;
+	/*clear: left;
+	position: relative;
+	left: 0%; */
+
+
+}
+
+/*---------------------------------------
+---------------------------------------
+---------------------------------------
+*/
+
+
+/*---------------------------------------
+--------- Search barre ------------------
+-----------------------------------------
+
+----------*/
+
+/*.boxContainer
+{
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 3px;
+	position: relative;
+	width: 300px;
+	height: 42px;
+	border: 4px solid #fff;
+	padding: 0px 10px ;
+	border-radius: 50px;
+}
+
+.elementsContainer 
+{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.search
+{
+	border: none;
+	height: 100%;
+	width: 100%;
+	padding: 0px 5px;
+	border-radius: 50px;
+	font-size: 18px;
+	font-family: "Nunito";
+	color: #787777;
+	font-weight: 500;
+}
+
+.search:focus
+{
+	outline: none;
+}
+.search_btn
+{
+	color: black;
+	float:right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+}
+.fasfa-search
+{
+	font-size: 26;
+	color: #2980b9;
+}
+*/
+
+
+
+.box
+{
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 3px;
+	position: relative;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.box 
+{
+
+	position: relative;
+	font-family: sans-serif;
+	box-sizing: border-box;
+
+	/* width: 500px; */
+	width: 500px; 
+	height: 30px;
+	background-color: white;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+
+	
+
+}
+
+.box > i {
+	font-size: 20px;
+	color: #787777;
+}
+
+.box > input {
+	flex: 1;
+	height: 30px;
+	border: none;
+	outline: none;
+	font-size: 15px; 
+	padding-left: 10px; 
+}
+
+#suggestion {
+	background-color: white;
+	border-radius: 6px;
+	margin-top: 5px;
+	width: 500px;
+	/* margin-left: 553px; */
+	position: absolute;
+
+}
+
+.suggestion {
+	margin-right: 19px;
+	padding-left: 29px;
+	border-radius: 30px;
+	margin-left: 16px;
+	color: black;
+	margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.suggestion:hover {
+	background: rgba(105, 103, 103, 0.6);
+}
+
+a 
+{
+	color: black;
+	text-decoration: none;
+}
+
+/*--------------------------------------
+----------SEARCH BAR END ---------------
+--------------------------------------*/
+
+
+
+
+
+/*---------------------------------------
+----------- Logo Téléphone --------------
+---------------------------------------
+*/
+
+.phone{
+
+	width: 35px;
+	height: 35px;
+	
+}
+
+/* ----------------------------------------
+----------- police num Téléphone ----------
+---------------------------------------- */
+
+.num{
+	font-family: Arial,bold;
+	font-size: 12px;
+	/*position: relative;
+	bottom: 12px;
+	left: 5px;
+*/
+
+}	
+
+.num-tel
+{
+	color: white;
+}
+.num_et_logo{
+
+	display: flex;
+	align-items: center;
+}
+
+.div_logo_phone{
+	margin-right: 9px; 
+}
+
+.loupe
+{
+	display: none;
+}
+
+/*---------------------------------------
+---------------------------------------
+---------------------------------------
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------
+----------------- ESPACE PROMO --------------
+--------------------------------------------*/
+
+.espace_promo
+{
+	/* background-color: #cdcdcd; */
+	width: 100%;
+	/* height: 440px; */
+	margin-top:-75px;
+	position: static;
+
+}
+
+ .photo_promo{
+	width: 100%;
+	/* height: 440px;  */
+	position: static;
+	margin-top: 75px;
+} 
+
+.a1-petit{
+	display: none;
+}
+
+.texte_promo
+{
+	height: 420px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*-------------------------------------------
+------------ ESPACE PROMO END ---------------
+--------------------------------------------*/
+
+
+/*-------------------------------------------
+------------ ESPACE PRODUITS- ---------------
+--------------------------------------------*/
+
+/*ombre deriere les image : box-shadow: 0 0 10rem 0 hsl(0deg 0% 100% / 15%);*/
+
+.espace_produit
+{
+	max-width: 1190px;
+	left: 25%;
+	margin: 120px auto;
+}
+
+
+/*-------------------------------------------
+------------ VOITURE 1 ----------------------
+--------------------------------------------*/
+
+.offer-list
+{
+	display: flex;
+    flex-wrap: wrap;
+    /* margin-right: -1rem; */
+    margin-left: -1rem;
+}
+
+.voiture
+{
+	display: flex;
+	margin: 0 auto;
+}
+
+.voiture-1 .voiture-2 .voiture-3
+{
+	margin-right: 15px;
+	margin-bottom: 31px;
+	display: inline-block;
+	box-shadow: 0 0 10rem 0 hsl(0deg 0% 100% / 15%);
+	
+}
+.voiture-1
+{
+	padding: 10px;
+}
+.voiture-2
+{
+	padding: 10px;
+}
+.voiture-3
+{
+	padding: 10px;
+}
+
+.fond_produit
+{
+	height: 200px;
+	border: none; /*1px solid #ebeff2;*/
+    border-top: none;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    box-shadow: 0 0 10rem 0 hsl(0deg 0% 100% / 15%);
+    flex-direction: column;
+
+	
+}
+
+.offer-details
+{
+	background: #060606;
+    border-color: transparent;
+    margin-top: 0px;
+    height: 117px
+
+}
+
+
+.car-name
+{
+	display: block;
+	margin: 0px 0px 0px 18px;
+	height: 52px;
+	width: 120px;
+	padding-top: 17px;
+}
+
+.brand-name
+{
+	font-family: Arial, bold;
+	font-size: 28px;
+}
+
+.model-name 
+{
+	font-size: 15px;
+	font-family: Arial, bold;
+}
+.version-name
+{
+	font-size: 15px;
+	font-family: Arial, bold;
+}
+
+.actuel-price
+{
+	font-family: Luckiest Guy;
+	font-size: 27px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 5px;
+    margin-right: 23px
+}
+
+
+@media screen and (max-width: 1150px)
+{
+	.voiture
+	{
+		display: block;
+	}
+}
+
+
+/*-----------------------------------------
+--------- 2 eme Ligne ---------------------
+-------------------------------------------*/
+
+
+.voiture-4
+{
+	padding: 10px;
+}
+.voiture-5
+{
+	padding: 10px;
+}
+.voiture-6
+{
+	padding: 10px;
+}
+
+/*-------------------------------
+    --------------------------------
+    --------------------------------*/
+
+
+/*---------------------------------------
+----------- A PROPOS --------------------
+-----------------------------------------*/
+
+
+.apropo
+{
+	background-color: #eae4e4;
+	width: 100%;
+	height: 600px;
+
+}
+
+.nous
+{
+	padding-top: 40px;
+    margin-left: 84px;
+}
+
+.title-nous
+{
+	font-family: arial black;
+	font-size: 24px;
+	color: #000;
+
+}
+
+.description
+{
+	font-family: arial ;
+	font-size: 23px;
+	color: #000;
+	margin-left: 37px;
+    margin-top: 43px;
+}
+
+.social-network
+{
+	font-size: 27px;
+	font-family: arial black;
+	color: black;
+	margin-left: 37px;
+}
+
+.resau
+{
+	display: flex;
+	align-items: center;
+}
+/*---------------------
+-------- fb -----------
+-----------------------*/
+.fb-network
+{
+    align-items: center;
+    display: flex;
+}
+
+.fb-icon
+{
+	height: 50px;
+	width:50px;
+	margin-left: 40px;
+}
+
+.sloc27-fb
+{
+	font-size: 20px;
+	font-family: arial black;
+	color: black;
+	margin-left: 10px;
+}
+
+/*-------------------
+------- insta -------
+---------------------*/
+
+.insta-network
+{
+    align-items: center;
+    display: flex;
+}
+
+.insta-icon
+{
+	height: 50px;
+	width:50px;
+	margin-left: 40px;
+}
+
+.sloc27-insta
+{
+	font-size: 20px;
+	font-family: arial black;
+	color: black;
+	margin-left: 10px;
+}
+
+/*-----------------------
+---------- twitter ------
+-------------------------*/
+
+.twitter-network
+{
+    align-items: center;
+    display: flex;
+}
+
+.twitter-icon
+{
+	height: 50px;
+	width:50px;
+	margin-left: 40px;
+}
+
+.sloc27-twitter
+{
+	font-size: 20px;
+	font-family: arial black;
+	color: black;
+	margin-left: 10px;
+}
+
+
+/*-----------------------------
+--------- A PROPOS END --------
+-------------------------------*/
+
+
+/*-----------------------------
+--------- FOOTER --------------
+--------------------------------*/
+
+.div-contact
+{
+	padding-top: 25px;
+}
+.footer
+{
+	background-color: #000;
+    height: 300px;
+    width: 100%;
+}
+
+.contact-txt
+{
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 25px;
+    margin-left: 100px;
+}
+
+.form-contact
+{
+	width: 500px;
+    background-color: black;
+	margin-left: 50px;
+    margin-top: 20px;
+	display: block;
+}
+
+.form-nom, .form-mail, .form-message
+{
+	padding: 7px 0px 0px
+
+}
+
+.nom, .e-mail, .message
+{
+	border-color: white;
+    background: black;
+    border-width: 1px;
+    color: white;
+    width: 520px;
+    height: 200px;
+}
+
+.nom, .e-mail
+{
+	width: 265px;
+    height: 20px;
+}
+
+/* @media screen and (max-width: 745px)
+{
+	
+} */
+
+
+
+
